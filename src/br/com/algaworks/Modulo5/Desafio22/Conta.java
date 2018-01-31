@@ -1,6 +1,6 @@
 package br.com.algaworks.Modulo5.Desafio22;
 
-public class Conta {
+public abstract class  Conta {
 	private String descricao, dataVencimento;
 	private double valor;
 	private SituacaoConta situacaoConta;
@@ -8,6 +8,8 @@ public class Conta {
 	Conta(){
 		situacaoConta = SituacaoConta.PENDENTE;
 	}
+	
+	public abstract void exibirDetalhes();
 	
 	void cancelar() {
 		if(this.situacaoConta == SituacaoConta.CANCELADA || 

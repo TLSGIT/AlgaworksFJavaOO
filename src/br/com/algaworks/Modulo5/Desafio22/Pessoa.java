@@ -1,6 +1,6 @@
 package br.com.algaworks.Modulo5.Desafio22;
 
-public class Pessoa {
+public abstract class Pessoa {
 	private String nome;
 	
 	Pessoa(){ }

@@ -6,7 +6,10 @@ public class ContaReceber extends Conta{
 		
 		ContaReceber() {}
 		ContaReceber(Cliente cliente, String descricao, double valor, String dataVencimento){
-			
+			this.setCliente(cliente);
+			this.setDescricao(descricao);
+			this.setValor(valor);
+			this.setDataVencimento(dataVencimento);
 		}
 		
 		void receber() {
@@ -35,6 +38,19 @@ public class ContaReceber extends Conta{
 		}
 		public void setCliente(Cliente cliente) {
 			this.cliente = cliente;
+		}
+		
+		@Override
+		public void exibirDetalhes() {
+			System.out.println(" --------------------------------------------------------");
+			System.out.println("Este é o relatório desta Conta:");
+			System.out.println("Com data de vencimento para: " + this.getDataVencimento() + 
+					"\n" + "Com descrição: " + this.getDescricao() + "\n" +
+					"Com valor de: " + this.getValor() + 
+					"\n" + "Com situação de conta: "+ this.getSituacaoConta() +
+					"\n" + "Com nome do Cliente: " + this.cliente.getNome());
+			System.out.println(" --------------------------------------------------------");
+			
 		}
 		
 }
