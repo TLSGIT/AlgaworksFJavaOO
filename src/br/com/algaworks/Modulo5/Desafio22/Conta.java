@@ -1,5 +1,6 @@
 package br.com.algaworks.Modulo5.Desafio22;
 
+<<<<<<< HEAD
 public abstract class Conta {
 	private String descricao, dataVencimento;
 	private double valor;
@@ -8,6 +9,18 @@ public abstract class Conta {
 	Conta(){
 		situacaoConta = SituacaoConta.PENDENTE;
 	}
+=======
+public abstract class  Conta {
+	private String descricao, dataVencimento;
+	private double valor;
+	private SituacaoConta situacaoConta;
+	
+	Conta(){
+		situacaoConta = SituacaoConta.PENDENTE;
+	}
+	
+	public abstract void exibirDetalhes();
+>>>>>>> branch 'master' of https://github.com/TLSGIT/AlgaworksFJavaOO.git
 	
 	void cancelar() {
 		if(this.situacaoConta == SituacaoConta.CANCELADA || 
