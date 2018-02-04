@@ -1,23 +1,22 @@
-<<<<<<< HEAD
-package br.com.algaworks.Modulo5.Desafio22;
+//package br.com.algaworks.Modulo5.Desafio22;
 
-public class RelatorioContas {
+//public class RelatorioContas {
 	
-	public void exibirListagem(Conta[] contas) {
-		
-	}
+//	public void exibirListagem(Conta[] contas) {
+//		
+//	}
+//
+//}
+//
+//package br.com.algaworks.Modulo5.Desafio22;
 
-}
-=======
-package br.com.algaworks.Modulo5.Desafio22;
+//public class RelatorioContas {
+//	
+//	public void exibirListagem(Conta[] contas) {
+//		for(int i=0; i<contas.length; i++) {
+//			contas[i].exibirDetalhes();
+//		}
+//	}
 
-public class RelatorioContas {
-	
-	public void exibirListagem(Conta[] contas) {
-		for(int i=0; i<contas.length; i++) {
-			contas[i].exibirDetalhes();
-		}
-	}
+//}
 
-}
->>>>>>> branch 'master' of https://github.com/TLSGIT/AlgaworksFJavaOO.git

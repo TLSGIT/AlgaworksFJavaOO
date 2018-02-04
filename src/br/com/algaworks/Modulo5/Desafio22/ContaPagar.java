@@ -38,8 +38,7 @@ public class ContaPagar extends Conta{
 	public void setFornecedor(Fornecedor fornecedor) {
 		this.fornecedor = fornecedor;
 	}
-<<<<<<< HEAD
-=======
+
 
 	@Override
 	public void exibirDetalhes() {
@@ -52,7 +51,6 @@ public class ContaPagar extends Conta{
 				"\n" + "Com situação de conta: "+ this.getSituacaoConta());
 		System.out.println(" --------------------------------------------------------");
 	}
->>>>>>> branch 'master' of https://github.com/TLSGIT/AlgaworksFJavaOO.git
 	
 
 	
